@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF64AF71E25582A00DDECEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF64AF61E25582A00DDECEB /* AppDelegate.swift */; };
+		FFF64AF91E25582A00DDECEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF64AF81E25582A00DDECEB /* ViewController.swift */; };
+		FFF64AFC1E25582A00DDECEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF64AFA1E25582A00DDECEB /* Main.storyboard */; };
+		FFF64AFE1E25582A00DDECEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF64AFD1E25582A00DDECEB /* Assets.xcassets */; };
+		FFF64B011E25582A00DDECEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF64AFF1E25582A00DDECEB /* LaunchScreen.storyboard */; };
+		FFF64B0C1E25582A00DDECEB /* NewJEnkinTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF64B0B1E25582A00DDECEB /* NewJEnkinTutorialTests.swift */; };
+		FFF64B171E25582A00DDECEB /* NewJEnkinTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF64B161E25582A00DDECEB /* NewJEnkinTutorialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF64B081E25582A00DDECEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF64AEB1E25582900DDECEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF64AF21E25582900DDECEB;
+			remoteInfo = NewJEnkinTutorial;
+		};
+		FFF64B131E25582A00DDECEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF64AEB1E25582900DDECEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF64AF21E25582900DDECEB;
+			remoteInfo = NewJEnkinTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFF64AF31E25582900DDECEB /* NewJEnkinTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewJEnkinTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF64AF61E25582A00DDECEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFF64AF81E25582A00DDECEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF64AFB1E25582A00DDECEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF64AFD1E25582A00DDECEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF64B001E25582A00DDECEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF64B021E25582A00DDECEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF64B071E25582A00DDECEB /* NewJEnkinTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewJEnkinTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF64B0B1E25582A00DDECEB /* NewJEnkinTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJEnkinTutorialTests.swift; sourceTree = "<group>"; };
+		FFF64B0D1E25582A00DDECEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF64B121E25582A00DDECEB /* NewJEnkinTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewJEnkinTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF64B161E25582A00DDECEB /* NewJEnkinTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJEnkinTutorialUITests.swift; sourceTree = "<group>"; };
+		FFF64B181E25582A00DDECEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF64AF01E25582900DDECEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF64B041E25582A00DDECEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF64B0F1E25582A00DDECEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF64AEA1E25582900DDECEB = {
+			isa = PBXGroup;
+			children = (
+				FFF64AF51E25582A00DDECEB /* NewJEnkinTutorial */,
+				FFF64B0A1E25582A00DDECEB /* NewJEnkinTutorialTests */,
+				FFF64B151E25582A00DDECEB /* NewJEnkinTutorialUITests */,
+				FFF64AF41E25582900DDECEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF64AF41E25582900DDECEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF64AF31E25582900DDECEB /* NewJEnkinTutorial.app */,
+				FFF64B071E25582A00DDECEB /* NewJEnkinTutorialTests.xctest */,
+				FFF64B121E25582A00DDECEB /* NewJEnkinTutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF64AF51E25582A00DDECEB /* NewJEnkinTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				FFF64AF61E25582A00DDECEB /* AppDelegate.swift */,
+				FFF64AF81E25582A00DDECEB /* ViewController.swift */,
+				FFF64AFA1E25582A00DDECEB /* Main.storyboard */,
+				FFF64AFD1E25582A00DDECEB /* Assets.xcassets */,
+				FFF64AFF1E25582A00DDECEB /* LaunchScreen.storyboard */,
+				FFF64B021E25582A00DDECEB /* Info.plist */,
+			);
+			path = NewJEnkinTutorial;
+			sourceTree = "<group>";
+		};
+		FFF64B0A1E25582A00DDECEB /* NewJEnkinTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF64B0B1E25582A00DDECEB /* NewJEnkinTutorialTests.swift */,
+				FFF64B0D1E25582A00DDECEB /* Info.plist */,
+			);
+			path = NewJEnkinTutorialTests;
+			sourceTree = "<group>";
+		};
+		FFF64B151E25582A00DDECEB /* NewJEnkinTutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF64B161E25582A00DDECEB /* NewJEnkinTutorialUITests.swift */,
+				FFF64B181E25582A00DDECEB /* Info.plist */,
+			);
+			path = NewJEnkinTutorialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF64AF21E25582900DDECEB /* NewJEnkinTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF64B1B1E25582A00DDECEB /* Build configuration list for PBXNativeTarget "NewJEnkinTutorial" */;
+			buildPhases = (
+				FFF64AEF1E25582900DDECEB /* Sources */,
+				FFF64AF01E25582900DDECEB /* Frameworks */,
+				FFF64AF11E25582900DDECEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewJEnkinTutorial;
+			productName = NewJEnkinTutorial;
+			productReference = FFF64AF31E25582900DDECEB /* NewJEnkinTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFF64B061E25582A00DDECEB /* NewJEnkinTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF64B1E1E25582A00DDECEB /* Build configuration list for PBXNativeTarget "NewJEnkinTutorialTests" */;
+			buildPhases = (
+				FFF64B031E25582A00DDECEB /* Sources */,
+				FFF64B041E25582A00DDECEB /* Frameworks */,
+				FFF64B051E25582A00DDECEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF64B091E25582A00DDECEB /* PBXTargetDependency */,
+			);
+			name = NewJEnkinTutorialTests;
+			productName = NewJEnkinTutorialTests;
+			productReference = FFF64B071E25582A00DDECEB /* NewJEnkinTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFF64B111E25582A00DDECEB /* NewJEnkinTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF64B211E25582A00DDECEB /* Build configuration list for PBXNativeTarget "NewJEnkinTutorialUITests" */;
+			buildPhases = (
+				FFF64B0E1E25582A00DDECEB /* Sources */,
+				FFF64B0F1E25582A00DDECEB /* Frameworks */,
+				FFF64B101E25582A00DDECEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF64B141E25582A00DDECEB /* PBXTargetDependency */,
+			);
+			name = NewJEnkinTutorialUITests;
+			productName = NewJEnkinTutorialUITests;
+			productReference = FFF64B121E25582A00DDECEB /* NewJEnkinTutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF64AEB1E25582900DDECEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sahitya Tarumani";
+				TargetAttributes = {
+					FFF64AF21E25582900DDECEB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FFF64B061E25582A00DDECEB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FFF64AF21E25582900DDECEB;
+					};
+					FFF64B111E25582A00DDECEB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FFF64AF21E25582900DDECEB;
+					};
+				};
+			};
+			buildConfigurationList = FFF64AEE1E25582900DDECEB /* Build configuration list for PBXProject "NewJEnkinTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF64AEA1E25582900DDECEB;
+			productRefGroup = FFF64AF41E25582900DDECEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF64AF21E25582900DDECEB /* NewJEnkinTutorial */,
+				FFF64B061E25582A00DDECEB /* NewJEnkinTutorialTests */,
+				FFF64B111E25582A00DDECEB /* NewJEnkinTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF64AF11E25582900DDECEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF64B011E25582A00DDECEB /* LaunchScreen.storyboard in Resources */,
+				FFF64AFE1E25582A00DDECEB /* Assets.xcassets in Resources */,
+				FFF64AFC1E25582A00DDECEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF64B051E25582A00DDECEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF64B101E25582A00DDECEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF64AEF1E25582900DDECEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF64AF91E25582A00DDECEB /* ViewController.swift in Sources */,
+				FFF64AF71E25582A00DDECEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF64B031E25582A00DDECEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF64B0C1E25582A00DDECEB /* NewJEnkinTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF64B0E1E25582A00DDECEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF64B171E25582A00DDECEB /* NewJEnkinTutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF64B091E25582A00DDECEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF64AF21E25582900DDECEB /* NewJEnkinTutorial */;
+			targetProxy = FFF64B081E25582A00DDECEB /* PBXContainerItemProxy */;
+		};
+		FFF64B141E25582A00DDECEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF64AF21E25582900DDECEB /* NewJEnkinTutorial */;
+			targetProxy = FFF64B131E25582A00DDECEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFF64AFA1E25582A00DDECEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF64AFB1E25582A00DDECEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF64AFF1E25582A00DDECEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF64B001E25582A00DDECEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF64B191E25582A00DDECEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF64B1A1E25582A00DDECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF64B1C1E25582A00DDECEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewJEnkinTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.NewJEnkinTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFF64B1D1E25582A00DDECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewJEnkinTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.NewJEnkinTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFF64B1F1E25582A00DDECEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NewJEnkinTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.NewJEnkinTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewJEnkinTutorial.app/NewJEnkinTutorial";
+			};
+			name = Debug;
+		};
+		FFF64B201E25582A00DDECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NewJEnkinTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.NewJEnkinTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewJEnkinTutorial.app/NewJEnkinTutorial";
+			};
+			name = Release;
+		};
+		FFF64B221E25582A00DDECEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NewJEnkinTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.NewJEnkinTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NewJEnkinTutorial;
+			};
+			name = Debug;
+		};
+		FFF64B231E25582A00DDECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NewJEnkinTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.NewJEnkinTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NewJEnkinTutorial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF64AEE1E25582900DDECEB /* Build configuration list for PBXProject "NewJEnkinTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF64B191E25582A00DDECEB /* Debug */,
+				FFF64B1A1E25582A00DDECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF64B1B1E25582A00DDECEB /* Build configuration list for PBXNativeTarget "NewJEnkinTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF64B1C1E25582A00DDECEB /* Debug */,
+				FFF64B1D1E25582A00DDECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFF64B1E1E25582A00DDECEB /* Build configuration list for PBXNativeTarget "NewJEnkinTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF64B1F1E25582A00DDECEB /* Debug */,
+				FFF64B201E25582A00DDECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFF64B211E25582A00DDECEB /* Build configuration list for PBXNativeTarget "NewJEnkinTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF64B221E25582A00DDECEB /* Debug */,
+				FFF64B231E25582A00DDECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF64AEB1E25582900DDECEB /* Project object */;
+}
